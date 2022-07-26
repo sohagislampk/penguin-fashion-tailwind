@@ -13,7 +13,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        headerbgcolor: 'teal-400',
+                        headerbg: '#fffbf0',
                     }
                 }
             }
@@ -23,12 +23,12 @@
 </head>
 
 <body>
-    <header class="bg-headerbgcolor">
+    <header>
         <!-- Navigation bar  -->
 
-        <nav class="flex items-center justify-between flex-wrap bg-white p-6">
+        <nav class=" flex items-center justify-between flex-wrap bg-headerbg p-6">
             <div class="flex items-center flex-shrink-0 mr-6">
-                <img src="images/logo.png" class="w-50 h-10" alt="">
+                <img src="images/logo.png" class="w-50 h-10 pl-20" alt="">
             </div>
             <div class="block lg:hidden">
                 <button
@@ -64,6 +64,22 @@
                 </div>
             </div>
         </nav>
+        <section class="bg-headerbg m-auto">
+            <div class="flex justify-around">
+                <div class="flex items-center">
+                    <div>
+                        <h2 class="text-5xl font-bold"><span>Be the Penguins</span> <br>
+                            of Winter</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry.</p>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/model.png" alt="">
+                </div>
+            </div>
+        </section>
     </header>
 </body>
 
